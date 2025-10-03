@@ -46,7 +46,7 @@
         },
         "sections": {
             "home": {
-                "version_title": "v{versionName} · forked by Eternal",
+                "version_title": "v{versionName} · Build By Zain Ali",
                 "update_title": "PurrfectSnap Update",
                 "update_content": "Version {version} is available!",
                 "update_button": "Download",
