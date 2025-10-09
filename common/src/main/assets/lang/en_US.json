@@ -263,6 +263,14 @@
                     "whitelist": "Stealth mode"
                 }
             },
+            "hide_typing_indicator": {
+                "name": "Hide Typing Indicator",
+                "description": "Prevents anyone from knowing you're typing",
+                "options": {
+                    "blacklist": "Exclude from Hide Typing Indicator",
+                    "whitelist": "Hide Typing Indicator"
+                }
+            },
             "auto_save": {
                 "name": "Auto Save",
                 "description": "Saves Chat Messages when viewing them",
@@ -346,6 +354,9 @@
     },
 
     "features": {
+        "friend_notes": {
+            "placeholder": "Click to add a note"
+        },
         "notices": {
             "unstable": "\u26A0 Unstable",
             "ban_risk": "\u26A0 This feature may cause bans",
@@ -597,10 +608,6 @@
                     "hide_bitmoji_presence": {
                         "name": "Hide Bitmoji Presence",
                         "description": "Prevents your Bitmoji from popping up while in Chat"
-                    },
-                    "hide_typing_notifications": {
-                        "name": "Hide Typing Notifications",
-                        "description": "Prevents anyone from knowing you're typing a message"
                     },
                     "unlimited_snap_view_time": {
                         "name": "Unlimited Snap View Time",
